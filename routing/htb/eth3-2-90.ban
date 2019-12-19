@@ -1,0 +1,5 @@
+RATE=128Kbit
+CEIL=1Mbit
+BURST=15k
+LEAF=sfq
+RULE=

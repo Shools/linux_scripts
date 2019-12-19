@@ -1,0 +1,6 @@
+RATE=5Mbit
+CEIL=20Mbit
+BURST=15k
+LEAF=sfq
+RULE=
+MARK=2
