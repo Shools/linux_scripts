@@ -7,29 +7,26 @@
 - The file "install_routing.sh" is the script for the first installatino of routing scripts on the system.
 
 ## Scripts for QoS
-- The file "htb.sh" is ?
-- The file "htb_restart.sh" is ?
-- The file "install_qos.sh" is ?
+### htb.sh
 
-- The file "" is ?
-- The file "" is ?
-- The file "" is ?
+### htb_restart.sh
 
+### install_qos.sh
 
 
 ## ls -l /etc/routing/
 
-drwxr-xr-x 2 root root  4096 Jan 30  2017 bkp
--rwxr-xr-x 1 root root  2933 Dec  9 10:21 check.sh
-drwxr-xr-x 7 root root  4096 Sep  3  2018 htb
--rwxr-xr-x 1 root root   287 Dec 14  2016 htb.sh
--rwxr-xr-x 1 root root    41 Feb 13  2017 htb_restart.sh
--rwxr-xr-x 1 root root   673 Feb 13  2017 install_qos.sh
--rwxr-xr-x 1 root root  1056 Dec 19 23:44 install_routing.sh
--rw------- 1 root root     0 Feb 27  2017 nohup.out
--rwxr-xr-x 1 root root 16972 Dec 19 23:25 routing.sh
--rwxr-xr-x 1 root root 15508 Feb 16  2017 routing.sh.bak.good
--rwxr-xr-x 1 root root  4382 Dec  8 22:48 vars.sh
+1. drwxr-xr-x 2 root root  4096 Jan 30  2017 bkp
+2. -rwxr-xr-x 1 root root  2933 Dec  9 10:21 check.sh
+3. drwxr-xr-x 7 root root  4096 Sep  3  2018 htb
+4. -rwxr-xr-x 1 root root   287 Dec 14  2016 htb.sh
+5. -rwxr-xr-x 1 root root    41 Feb 13  2017 htb_restart.sh
+6. -rwxr-xr-x 1 root root   673 Feb 13  2017 install_qos.sh
+7. -rwxr-xr-x 1 root root  1056 Dec 19 23:44 install_routing.sh
+8. -rw------- 1 root root     0 Feb 27  2017 nohup.out
+9. -rwxr-xr-x 1 root root 16972 Dec 19 23:25 routing.sh
+10. -rwxr-xr-x 1 root root 15508 Feb 16  2017 routing.sh.bak.good
+11. -rwxr-xr-x 1 root root  4382 Dec  8 22:48 vars.sh
 
 ## ls -l /etc/routing/htb
 
