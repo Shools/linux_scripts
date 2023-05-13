@@ -1,12 +1,12 @@
-Bash/Shell scripts for routing traffic with iptables, iproute2 and htb.
+# Bash/Shell scripts for routing traffic with iptables, iproute2 and htb.
 
-Main scripts
+## Main scripts
 - The file "vars.sh" contains mutable variables.
 - The file "routing.sh" is the main script for routing Internet traffic with multiple ISPs (Two ISPs).
 - The file "check.sh" is a script for checking Internet connections using the ping command to Google DNS (8.8.8.8 and 8.8.4.4) and emergency changes to user connections.
 - The file "install_routing.sh" is the script for the first installatino of routing scripts on the system.
 
-Scripts for QoS
+## Scripts for QoS
 - The file "htb.sh" is ?
 - The file "htb_restart.sh" is ?
 - The file "install_qos.sh" is ?
@@ -17,7 +17,7 @@ Scripts for QoS
 
 
 
-ls -l /etc/routing/
+## ls -l /etc/routing/
 
 drwxr-xr-x 2 root root  4096 Jan 30  2017 bkp
 -rwxr-xr-x 1 root root  2933 Dec  9 10:21 check.sh
@@ -31,7 +31,7 @@ drwxr-xr-x 7 root root  4096 Sep  3  2018 htb
 -rwxr-xr-x 1 root root 15508 Feb 16  2017 routing.sh.bak.good
 -rwxr-xr-x 1 root root  4382 Dec  8 22:48 vars.sh
 
-ls -l /etc/routing/htb
+## ls -l /etc/routing/htb
 
 drwxr-xr-x 6 root root 4096 May 11  2017 backup_05052017
 drwxr-xr-x 2 root root 4096 Mar 14  2018 backup_20180314
